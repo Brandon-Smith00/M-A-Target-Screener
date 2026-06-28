@@ -1,6 +1,6 @@
 # AI-Powered M&A Target Screener
-
-An automated pipeline that screens public companies for M&A attractiveness, scores them across five financial dimensions, generates AI-written acquisition analysis via the Claude API, and outputs polished PDF tearsheets and an Excel summary workbook.
+Please read the Tear Sheets and the excel file if you are just looking for the outputs.
+An automated pipeline that screens public companies for M&A attractiveness, scores them across five financial dimensions, generates AI-written acquisition analysis via the Claude API, and outputs polished PDF tearsheets and an Excel summary workbook. 
 
 ---
 
