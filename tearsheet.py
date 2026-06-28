@@ -228,10 +228,9 @@ def generate_tearsheet(row: dict, rank: int) -> str:
     score_rows.append([
         Paragraph("<b>OVERALL</b>",
             ParagraphStyle("ol", fontSize=9, textColor=NAVY)),
-        Paragraph(f"<b>{total:.0f} / 100</b>",
-            ParagraphStyle("ov", fontSize=9, textColor=lbl_color, alignment=TA_CENTER)),
-        Paragraph(f"<b>{label}</b>",
-            ParagraphStyle("olb", fontSize=9, textColor=lbl_color, alignment=TA_RIGHT)),
+        Paragraph(f"<b>{total:.0f} / 100 — {label}</b>",
+            ParagraphStyle("olb", fontSize=8, textColor=lbl_color, alignment=TA_CENTER)),
+        Paragraph("", ParagraphStyle("empty", fontSize=8)),
     ])
 
     score_tbl = Table(score_rows, colWidths=[1.1*inch, 1.3*inch, 0.7*inch])
